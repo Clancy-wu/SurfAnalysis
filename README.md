@@ -1,2 +1,2 @@
 No readme.
-Just for selfuse.
+Just for self use.

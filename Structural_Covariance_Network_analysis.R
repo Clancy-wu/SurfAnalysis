@@ -55,7 +55,7 @@ library(fsbrain)
 
 template_subject = 'fsaverage'
 template_subject_dir = 'C:/Users/Clancy/Desktop/Structure_Dataset_71/freesurfer/'
-A <- vis.subject.label(subjects_dir = template_subject_dir, 
+A <- vis.subject.annot(subjects_dir = template_subject_dir, 
                   subject_id = 'fsaverage', atlas = 'aparc.a2009s', hemi='both',
                   surface='pial', views = c('t4') )
 #export(A,output_img='fig1.tiff')

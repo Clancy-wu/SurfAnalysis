@@ -23,3 +23,8 @@ VAN	0.768627	0.227451	0.980392	#c43af9
 SC	0.862745	0.972549	0.643137	#dcf8a4
 FPN	0.901961	0.580392	0.133333	#e99422
 DMN	0.803922	0.243137	0.305882	#cd3e4e
+
+scale_fill_manual(
+    values=c('Frontoparietal'='#e99422', 'Ventral Attention'='#c43af9', 'Default'='#cd3e4e',
+             'Dorsal Attention'='#00750e', 'Somatomotor'='#467faf', 'Limbic'='#dcf8a4',
+             'Visual'='#78118a' )
